@@ -33,7 +33,6 @@ namespace ExcelPic
 
             int offset = 0;
             bool[] cols = new bool[img.Width * 3];
-            bool[] rows = new bool[img.Height];
             for (var i = 1; i < img.Height; i++)
             {
                 for (var j = 1; j < img.Width; j++)
